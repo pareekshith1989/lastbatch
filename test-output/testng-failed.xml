@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [RegressionSuite]">
+  <listeners>
+    <listener class-name="generic.TestngListeners"/>
+  </listeners>
+  <test thread-count="5" name="SmokeTest(failed)">
+    <classes>
+      <class name="Scriptspackage.TestValidLogin">
+        <methods>
+          <include name="testvalidLogin"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Scriptspackage.TestValidLogin -->
+    </classes>
+  </test> <!-- SmokeTest(failed) -->
+</suite> <!-- Failed suite [RegressionSuite] -->
